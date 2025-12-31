@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Página TIC</title>
+
+  <!-- Fuente Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/style.css">
+
+  <!-- JS -->
+  <script src="scripts/script.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>Página web interactiva</h1>
+    <p>Ejemplo de uso de HTML, CSS y JavaScript</p>
+  </header>
+
+  <main>
+
+    <!-- Sección básica -->
+    <section>
+      <h2>Contenido principal</h2>
+      <p>
+        Esta página es un ejemplo académico con distintos recursos interactivos
+        implementados mediante JavaScript.
+      </p>
+
+      <!-- Imagen fija -->
+      <img src="images/img3.jpg" alt="Imagen fija de ejemplo">
+    </section>
+
+    <!-- Intercambio de imágenes -->
+    <section>
+      <h2>Intercambio de imágenes</h2>
+      <p>Haz clic sobre la imagen para cambiarla.</p>
+
+      <img
+        id="imagenInteractiva"
+        src="images/img1.jpg"
+        alt="Imagen interactiva"
+        class="imagen-click">
+    </section>
+
+    <!-- Campo de texto -->
+    <section>
+      <h2>Interacción con el usuario</h2>
+      <input type="text" id="textoUsuario" placeholder="Escribe algo">
+      <p id="resultadoTexto">
+        El texto cambiará cuando escribas.
+      </p>
+    </section>
+
+    <!-- Objeto en movimiento -->
+    <section>
+      <h2>Objeto en movimiento</h2>
+      <div id="planeta"></div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>
+      Enlace de ejemplo a
+      <a href="https://www.wikipedia.org"
+         target="_blank"
+         title="Enlace externo de ejemplo">
+         Wikipedia
+      </a>
+    </p>
+  </footer>
+
+</body>
+</html>
